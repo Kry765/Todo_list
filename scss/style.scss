@@ -1,18 +1,18 @@
 @import './_reset.scss';
 
-.app{
+.top-section-app{
+    width: 100%;
+    height: 40%;
     background-color: royalblue;
+    .textTask{
+        border-radius: 5px;
+        min-height: 60px;
+        width: 90%;
+    }   
 }
 
 .fa-solid{
+    padding-left: 25px;
     color: #fff;
-    font-size: 36px;
+    font-size: 56px;
 }
-
-
-.textTask{
-    border-radius: 5px;
-    height: 40px;
-    width: 80%;
-}
-
